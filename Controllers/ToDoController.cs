@@ -34,9 +34,6 @@ public class ToDoController : ControllerBase
         //if (userId == null)
         //    return Unauthorized();
 
-        //prova del deploy automatico
-        return Ok("Backend ToDoList v2.0 - Deploy Automatico Funzionante!");
-
         var user = (User)HttpContext.Items["User"];
 
         if (user.IsAdmin == true)
