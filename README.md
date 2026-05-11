@@ -1,5 +1,11 @@
 Cloud-Native ToDo App on AWS – Real Cloud Architecture Project
 
+
+## Architecture
+
+![AWS Architecture](./diagrams/architecture.png)
+
+
 ## Overview
 
 This project is a cloud-native application deployed on AWS as part of my ITS Academy ICT final thesis.
@@ -9,10 +15,6 @@ The main focus of the project is the design and implementation of a scalable and
 The frontend source code is not included, as the project was originally developed in an internship environment. The repository focuses on backend architecture, deployment pipeline and cloud infrastructure.
 
 The project demonstrates practical experience in designing and deploying distributed systems on AWS.
-
-## Architecture
-
-![AWS Architecture](./diagrams/architecture.png)
 
 ## Cloud Features Implemented
 
