@@ -1,0 +1,52 @@
+Cloud-Native ToDo App on AWS – Real Cloud Architecture Project
+
+## Overview
+
+This project is a cloud-native application deployed on AWS as part of my ITS Academy ICT final thesis.
+
+The main focus of the project is the design and implementation of a scalable and secure cloud architecture using modern AWS services, containers and CI/CD automation.
+
+The frontend source code is not included, as the project was originally developed in an internship environment. The repository focuses on backend architecture, deployment pipeline and cloud infrastructure.
+
+The project demonstrates practical experience in designing and deploying distributed systems on AWS.
+
+## Architecture
+
+![AWS Architecture](./diagrams/architecture.png)
+
+## Cloud Features Implemented
+
+- Containerized .NET backend using Docker
+- AWS ECS Fargate deployment (serverless containers)
+- Amazon RDS database integration
+- API Gateway for backend exposure
+- Amazon CloudFront for content delivery
+- S3 for static frontend hosting
+- CI/CD pipeline with AWS CodePipeline and CodeBuild
+- Serverless components using AWS Lambda and EventBridge
+- IAM-based security model with least privilege access
+- CloudWatch monitoring and logging
+
+## Key Technical Decisions
+
+- Microservices-style separation between frontend and backend
+- Containerized deployment using Docker to ensure portability
+- Serverless-first approach for scalability (Lambda, EventBridge)
+- Managed database (RDS) to reduce operational overhead
+- CI/CD automation to enable continuous deployment
+
+## Architecture Goals 
+
+- Cloud scalability
+- Infrastructure automation
+- Security best practices
+- Cost awareness (AWS Free Tier optimization)
+- Separation of concerns between frontend, backend and infrastructure
+
+
+## Future Improvements
+
+- Infrastructure as Code with Terraform
+- Kubernetes migration (EKS)
+- Full observability stack (Prometheus / Grafana)
+- Multi-environment deployment (dev / staging / prod)
