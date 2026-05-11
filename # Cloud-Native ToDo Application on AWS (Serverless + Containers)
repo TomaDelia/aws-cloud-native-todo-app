@@ -8,6 +8,10 @@ The frontend source code is not included, as the project was originally develope
 
 The project demonstrates practical experience in designing and deploying distributed systems on AWS.
 
+## Architecture
+
+![AWS Architecture](./diagrams/architecture.png)
+
 ## Cloud Features Implemented
 
 - Containerized .NET backend using Docker
@@ -21,6 +25,14 @@ The project demonstrates practical experience in designing and deploying distrib
 - IAM-based security model with least privilege access
 - CloudWatch monitoring and logging
 
+## Key Technical Decisions
+
+- Microservices-style separation between frontend and backend
+- Containerized deployment using Docker to ensure portability
+- Serverless-first approach for scalability (Lambda, EventBridge)
+- Managed database (RDS) to reduce operational overhead
+- CI/CD automation to enable continuous deployment
+
 ## Architecture Goals 
 
 - Cloud scalability
@@ -29,9 +41,6 @@ The project demonstrates practical experience in designing and deploying distrib
 - Cost awareness (AWS Free Tier optimization)
 - Separation of concerns between frontend, backend and infrastructure
 
-## Architecture
-
-![AWS Architecture](./diagrams/architecture.png)
 
 ## Future Improvements
 
