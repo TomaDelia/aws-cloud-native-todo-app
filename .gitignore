@@ -18,3 +18,5 @@ obj/
 # OS files
 .DS_Store
 Thumbs.db
+
+**/Properties/launchSettings.json
