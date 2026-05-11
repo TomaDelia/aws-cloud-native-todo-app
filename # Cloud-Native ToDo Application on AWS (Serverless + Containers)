@@ -21,13 +21,17 @@ The project demonstrates practical experience in designing and deploying distrib
 - IAM-based security model with least privilege access
 - CloudWatch monitoring and logging
 
-## Architecture Goals
+## Architecture Goals 
 
 - Cloud scalability
 - Infrastructure automation
 - Security best practices
 - Cost awareness (AWS Free Tier optimization)
 - Separation of concerns between frontend, backend and infrastructure
+
+## Architecture
+
+![AWS Architecture](./diagrams/architecture.png)
 
 ## Future Improvements
 
